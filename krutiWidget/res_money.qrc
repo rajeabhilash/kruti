@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>inc_Dark.svg</file>
+    <file>icons8-cashbook-filled-100.png</file>
+    <file>icons8-reserve-filled-100 (2).png</file>
+    <file>icons8-reserve-filled-100.png</file>
+    <file>icons8-cashbook-filled-100 (1).png</file>
+    <file>inc_White.svg</file>
+    <file>backLight.svg</file>
+    <file>wallet-filled-money-tool.svg</file>
+    <file>funnel.svg</file>
+    <file>group.svg</file>
+    <file>InVoice.svg</file>
+    <file>InVoiceL.svg</file>
+    <file>minimize Light.svg</file>
+    <file>minimize.svg</file>
+    <file>money-bag (1).svg</file>
+    <file>money-bag (2).svg</file>
+    <file>money-bag (3).svg</file>
+    <file>money-bag (4).svg</file>
+    <file>money-bag.svg</file>
+    <file>money-bag-with-dollar-symbol.svg</file>
+    <file>settings.svg</file>
+    <file>view-list-button.svg</file>
+  </qresource>
+</RCC>

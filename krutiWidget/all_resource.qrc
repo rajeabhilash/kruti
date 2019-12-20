@@ -1,0 +1,123 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>001-instagram-logo.svg</file>
+    <file>002-whatsapp-logo.svg</file>
+    <file>003-facebook.svg</file>
+    <file>back.svg</file>
+    <file>backLight.svg</file>
+    <file>bars-chart.svg</file>
+    <file>boy.svg</file>
+    <file>contacts-agenda.svg</file>
+    <file>contacts-agendaDark.svg</file>
+    <file>funnel.svg</file>
+    <file>girl.svg</file>
+    <file>graph.svg</file>
+    <file>group.svg</file>
+    <file>iconfinder-icon Light.svg</file>
+    <file>iconfinder-icon.svg</file>
+    <file>if_32_171485.svg</file>
+    <file>inc_Dark.svg</file>
+    <file>inc_White.svg</file>
+    <file>InVoice.svg</file>
+    <file>InVoiceL.svg</file>
+    <file>minimize Light.svg</file>
+    <file>minimize.svg</file>
+    <file>money-bag (1).svg</file>
+    <file>money-bag (2).svg</file>
+    <file>money-bag (3).svg</file>
+    <file>money-bag (4).svg</file>
+    <file>money-bag.svg</file>
+    <file>money-bag-with-dollar-symbol.svg</file>
+    <file>new-user.svg</file>
+    <file>new-userLight.svg</file>
+    <file>noIconDark.svg</file>
+    <file>noIconLight.svg</file>
+    <file>../001-instagram-logo.svg</file>
+    <file>../002-whatsapp-logo.svg</file>
+    <file>../003-facebook.svg</file>
+    <file>../back.svg</file>
+    <file>../backLight.svg</file>
+    <file>../bars-chart.svg</file>
+    <file>../boy.svg</file>
+    <file>../contacts-agenda.svg</file>
+    <file>../contacts-agendaDark.svg</file>
+    <file>../diamond Dark.svg</file>
+    <file>../diamond.svg</file>
+    <file>../DLogout.svg</file>
+    <file>../funnel.svg</file>
+    <file>../girl.svg</file>
+    <file>../graph.svg</file>
+    <file>../group.svg</file>
+    <file>../HD_ICON.svg</file>
+    <file>../iconfinder-icon Light.svg</file>
+    <file>../iconfinder-icon.svg</file>
+    <file>../if_32_171485.svg</file>
+    <file>../inc_Dark.svg</file>
+    <file>../inc_White.svg</file>
+    <file>../InFace.svg</file>
+    <file>../InFaceLS.svg</file>
+    <file>../InGesture.svg</file>
+    <file>../InGestureL.svg</file>
+    <file>../InKeyPass.svg</file>
+    <file>../InKeyPassL.svg</file>
+    <file>../InNumPass.svg</file>
+    <file>../InNumPassL.svg</file>
+    <file>../InVoice.svg</file>
+    <file>../InVoiceL.svg</file>
+    <file>../Logout.svg</file>
+    <file>../minimize Light.svg</file>
+    <file>../minimize.svg</file>
+    <file>../money-bag (1).svg</file>
+    <file>../money-bag (2).svg</file>
+    <file>../money-bag (3).svg</file>
+    <file>../money-bag (4).svg</file>
+    <file>../money-bag.svg</file>
+    <file>../money-bag-with-dollar-symbol.svg</file>
+    <file>../new-user.svg</file>
+    <file>../new-userLight.svg</file>
+    <file>../noIconDark.svg</file>
+    <file>../ABHI_FIVE.jpg</file>
+    <file>../ABHI_PI.jpg</file>
+    <file>../ScreenShot_[R 112,G 0,B 58].jpg</file>
+    <file>../SHREYA.jpg</file>
+    <file>../SHREYA_PI.JPG</file>
+    <file>../ABHI.png</file>
+    <file>../Back.png</file>
+    <file>../boy.png</file>
+    <file>../Female.png</file>
+    <file>../FemaleOne.png</file>
+    <file>../FemaleTwo.png</file>
+    <file>../girl One .png</file>
+    <file>../girl Two.png</file>
+    <file>../HD_ICON.png</file>
+    <file>../ICON.png</file>
+    <file>../Male.png</file>
+    <file>../MaleOne.png</file>
+    <file>../MaleThree.png</file>
+    <file>../MaleTwo.png</file>
+    <file>../RAJEABHILASH.png</file>
+    <file>../REAL_ICON.png</file>
+    <file>../SHREYA.png</file>
+    <file>../startKruti.png</file>
+    <file>../noIconLight.svg</file>
+    <file>../pie-chart.svg</file>
+    <file>../settings.svg</file>
+    <file>../startKruti.svg</file>
+    <file>../student.svg</file>
+    <file>../Sun.svg</file>
+    <file>../SunL.svg</file>
+    <file>../view-list-button.svg</file>
+    <file>../wallet.svg</file>
+    <file>../wallet-filled-money-tool.svg</file>
+    <file>pie-chart.svg</file>
+    <file>settings.svg</file>
+    <file>student.svg</file>
+    <file>view-list-button.svg</file>
+    <file>wallet.svg</file>
+    <file>wallet-filled-money-tool.svg</file>
+    <file>icons8-cashbook-filled-100 (1).png</file>
+    <file>icons8-cashbook-filled-100.png</file>
+    <file>icons8-reserve-filled-100 (2).png</file>
+    <file>icons8-reserve-filled-100.png</file>
+  </qresource>
+</RCC>

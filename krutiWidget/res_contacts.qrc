@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>001-instagram-logo.svg</file>
+    <file>002-whatsapp-logo.svg</file>
+    <file>003-facebook.svg</file>
+    <file>back.svg</file>
+    <file>backLight.svg</file>
+    <file>contacts-agenda.svg</file>
+    <file>contacts-agendaDark.svg</file>
+    <file>funnel.svg</file>
+    <file>group.svg</file>
+    <file>InVoice.svg</file>
+    <file>InVoiceL.svg</file>
+    <file>minimize Light.svg</file>
+    <file>minimize.svg</file>
+    <file>new-user.svg</file>
+    <file>new-userLight.svg</file>
+    <file>settings.svg</file>
+    <file>view-list-button.svg</file>
+  </qresource>
+</RCC>

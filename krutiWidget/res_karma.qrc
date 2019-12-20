@@ -1,0 +1,42 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>iconfinder-icon Light.svg</file>
+    <file>iconfinder-icon.svg</file>
+    <file>001-instagram-logo.svg</file>
+    <file>002-whatsapp-logo.svg</file>
+    <file>003-facebook.svg</file>
+    <file>back.svg</file>
+    <file>backLight.svg</file>
+    <file>bars-chart.svg</file>
+    <file>boy.svg</file>
+    <file>contacts-agenda.svg</file>
+    <file>contacts-agendaDark.svg</file>
+    <file>funnel.svg</file>
+    <file>girl.svg</file>
+    <file>graph.svg</file>
+    <file>group.svg</file>
+    <file>if_32_171485.svg</file>
+    <file>inc_Dark.svg</file>
+    <file>inc_White.svg</file>
+    <file>InVoice.svg</file>
+    <file>InVoiceL.svg</file>
+    <file>minimize Light.svg</file>
+    <file>minimize.svg</file>
+    <file>money-bag (1).svg</file>
+    <file>money-bag (2).svg</file>
+    <file>money-bag (3).svg</file>
+    <file>money-bag (4).svg</file>
+    <file>money-bag.svg</file>
+    <file>money-bag-with-dollar-symbol.svg</file>
+    <file>new-user.svg</file>
+    <file>new-userLight.svg</file>
+    <file>noIconDark.svg</file>
+    <file>noIconLight.svg</file>
+    <file>pie-chart.svg</file>
+    <file>settings.svg</file>
+    <file>student.svg</file>
+    <file>view-list-button.svg</file>
+    <file>wallet.svg</file>
+    <file>wallet-filled-money-tool.svg</file>
+  </qresource>
+</RCC>

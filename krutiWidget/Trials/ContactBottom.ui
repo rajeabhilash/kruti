@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>50</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  #1A1A1D; border: 2px solid #24292E</string>
+   </property>
+   <widget class="QLabel" name="det_Lab01">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>5</y>
+      <width>141</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Demi</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>Contacts : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="det_Lab01_2">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>5</y>
+      <width>130</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Book</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>250</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Sep00" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1465</x>
+      <y>5</y>
+      <width>3</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FCFCFC;
+border: 0px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="det_Lab01_3">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>5</y>
+      <width>141</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Demi</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>Family :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tolFamily">
+    <property name="geometry">
+     <rect>
+      <x>1385</x>
+      <y>5</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Book</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totFriends">
+    <property name="geometry">
+     <rect>
+      <x>1595</x>
+      <y>5</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Book</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>150</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="det_Lab01_6">
+    <property name="geometry">
+     <rect>
+      <x>1480</x>
+      <y>5</y>
+      <width>141</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Demi</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>Friends : </string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Sep00_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1685</x>
+      <y>5</y>
+      <width>3</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FCFCFC;
+border: 0px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totOthers">
+    <property name="geometry">
+     <rect>
+      <x>1810</x>
+      <y>5</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Book</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>50</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="det_Lab01_8">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>5</y>
+      <width>151</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Demi</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fcfcfc;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string>Others : </string>
+    </property>
+   </widget>
+   <zorder>det_Lab01</zorder>
+   <zorder>det_Lab01_2</zorder>
+   <zorder>det_Lab01_3</zorder>
+   <zorder>tolFamily</zorder>
+   <zorder>Sep00</zorder>
+   <zorder>det_Lab01_6</zorder>
+   <zorder>totFriends</zorder>
+   <zorder>Sep00_2</zorder>
+   <zorder>det_Lab01_8</zorder>
+   <zorder>totOthers</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

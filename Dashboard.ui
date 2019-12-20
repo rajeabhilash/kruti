@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashboard</class>
+ <widget class="QMainWindow" name="Dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+border-image: url(:/images/Back.png);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="titleBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#titleBar { border: 2px solid #24292E; }</string>
+    </property>
+    <widget class="QPushButton" name="OwnerTitle">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>0</y>
+       <width>350</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#OwnerTitle
+{
+	color:#fff;
+	background-color: #24292E;
+}</string>
+     </property>
+     <property name="text">
+      <string>RAJE ABHILASH MOHITE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="OwnerPic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#OwnerPic
+{
+	border: 2px solid #24292E;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource_list.qrc">:/images/ABHI.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="krSearch">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>0</y>
+       <width>1000</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Medium</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krSearch {
+	font-family: &quot;Roboto Medium&quot;;
+	background-color: rgb(0,0,0,0);
+	padding-left: 25px;
+	color: #24292E;
+	border: 2px solid #24292E;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Press F2 or Say 'Kruti'</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="krVoice">
+     <property name="geometry">
+      <rect>
+       <x>1408</x>
+       <y>0</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Sans Serif</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krVoice {	background-color: #24292E; }</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource_list.qrc">
+       <normaloff>:/images/InVoiceL.svg</normaloff>:/images/InVoiceL.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>35</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="krLogout">
+     <property name="geometry">
+      <rect>
+       <x>1860</x>
+       <y>0</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krLogout { background-color: #24292E; }
+#krLogout:hover {background-color: rgb(121, 2, 2);}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="dash_resource.qrc">
+       <normaloff>:/icons/DLogout.svg</normaloff>:/icons/DLogout.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>35</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="krTime">
+     <property name="geometry">
+      <rect>
+       <x>1681</x>
+       <y>0</y>
+       <width>181</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bahnschrift Condensed</family>
+       <pointsize>25</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krTime {	border: 2px solid #24292E; color: #24292E;}</string>
+     </property>
+     <property name="text">
+      <string>12:30:20 AM</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="krDay">
+     <property name="geometry">
+      <rect>
+       <x>1467</x>
+       <y>0</y>
+       <width>216</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bahnschrift SemiBold SemiConden</family>
+       <pointsize>17</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krDay {border: 2px solid #24292E; color: #24292E; padding-right: 5px; text-transform: capitalize;}</string>
+     </property>
+     <property name="text">
+      <string>WEDNESDAY</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="krDate">
+     <property name="geometry">
+      <rect>
+       <x>1467</x>
+       <y>33</y>
+       <width>216</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bahnschrift</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krDate {border: 2px solid #24292E; color: #24292E; padding-right: 5px;}</string>
+     </property>
+     <property name="text">
+      <string>12 SEPTEMBER 2018</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="taskBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1020</y>
+      <width>1920</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#taskBar { border: 2px solid #24292E; }</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource_list.qrc"/>
+  <include location="dash_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

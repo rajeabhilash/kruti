@@ -7,7 +7,6 @@ class dateTime(QThread):
 
     def __init__(self):
         super().__init__()
-        self.int = 0
 
     def __del__(self):
         del self

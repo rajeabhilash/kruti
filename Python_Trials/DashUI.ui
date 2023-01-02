@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashboard</class>
+ <widget class="QMainWindow" name="Dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralDash">
+   <property name="styleSheet">
+    <string notr="true">#centralDash {	border-image: url(:/images/Back.png);}</string>
+   </property>
+   <widget class="QWidget" name="infoBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#infoBar { border: 2px solid #24292E; }</string>
+    </property>
+    <widget class="QLineEdit" name="krSearch">
+     <property name="geometry">
+      <rect>
+       <x>418</x>
+       <y>1</y>
+       <width>984</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Florentia</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krSearch {
+	background-color:rgba(0,0,0,0);
+	color: #24292E;
+	border: 2px solid #24292E;
+	padding-left: 25px;
+	padding-right: 25px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Kruti Search [F2]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="krOwnerLogo">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>4</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krOwnerLogo
+{
+image: url(:/images/RAJEABHILASH.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="krOwner">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>1</y>
+       <width>350</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krOwner {
+background-color: rgba(0,0,0,0);
+color: #24292E;
+border: 2px solid #24292E;
+}
+#krOwner:hover {
+background-color: #24292E;
+color: #FCFCFC;
+}</string>
+     </property>
+     <property name="text">
+      <string>RAJE ABHILASH MOHITE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="krVoiceSearch">
+     <property name="geometry">
+      <rect>
+       <x>1400</x>
+       <y>1</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#krVoiceSearch{
+background-color: rgba(0,0,0,0);
+border: 2px solid #24292E;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="dashboard_res.qrc">
+       <normaloff>:/icons/InVoice.svg</normaloff>:/icons/InVoice.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>35</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>1470</x>
+       <y>10</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="taskBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>1020</y>
+      <width>1860</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#taskBar { 
+border: 2px solid #24292E;
+background-color: #24292E;}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="krutiStart">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1020</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#krutiStart { 
+border: 2px solid #24292E;
+border-right: 2px solid #FCFCFC;
+background-color: #24292E;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="dashboard_res.qrc">
+      <normaloff>:/icons/startKruti.png</normaloff>:/icons/startKruti.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="dashboard_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

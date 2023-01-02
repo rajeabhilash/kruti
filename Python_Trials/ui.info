@@ -1,0 +1,45 @@
+							
+							-----------------------------
+							    Kruti UI Design Manual 
+							-----------------------------
+							
+--------------------------
+>>>	LIGHT COLOR SHCEME :
+--------------------------
+	
+	[QMainWindow: SplashScreen | Time = 7SEC | Kruti Catched Diamond]
+	------------------------------------------------------------------
+	#startUI
+	{
+		background-color: #DCDCDC | rgb(252,250,250)
+		color: #24292E | rgb(23,23,23)
+		state: FullScreen
+		transperancy: None
+		background-animation: 3D(if Possible) otherwise Plane Background
+		[TIP: KEEP IT MELLOW]
+	}
+
+	#Logo
+	{
+		Aspect Ratio : NYF
+		
+	}
+	
+------------------------
+>>>	ICONS AND ASSETS :
+------------------------
+	 # Logo Should be in Both DARK & LIGHT Theme.
+	---------------------------------------------
+		A. [PRODUCT]
+			1: Kruti Logo [RATIO > W : 0.52 | H : 0.67]
+			2: Vashishtha Logo
+		
+		B. [INFORMATIONS]
+			1: Whether Logo
+		
+		C. [INPUTS]
+			1: Voice Recognition Logo 
+			2: Face Recognition Logo
+			3: String Password Logo
+			4: Pin Password Logog
+			5: Gesture Password Logo

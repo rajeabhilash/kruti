@@ -1,0 +1,19 @@
+--------------------------
+	States in Kruti
+--------------------------
+
+|-> SplashScreen
+|	|
+|
+|->	Login
+|	|-> Speech
+|	|-> Face
+|	|-> Password | PIN | Pattern
+|	|-> Gesture [Pattern]
+|	|-> Fingerprint | Iris | Blood[DNA]
+|
+|->	Dashboard
+|	|
+|
+|->	Activity
+|	|

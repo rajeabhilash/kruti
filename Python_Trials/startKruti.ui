@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Kruti - An Artificial Intelligent System</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ICON.png</normaloff>ICON.png</iconset>
+  </property>
+  <widget class="QWidget" name="loginPanel">
+   <widget class="QWidget" name="infoBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>470</y>
+      <width>720</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#infoBar
+{
+	background-color: #24292E;
+	border : 2px solid rgba(0,0,0,0);
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px; 
+}</string>
+    </property>
+    <widget class="QLabel" name="infoWether">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>30</y>
+       <width>125</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>22</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC</string>
+     </property>
+     <property name="text">
+      <string>29°C</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="infoLocation">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>75</y>
+       <width>311</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Thin</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC;
+text-transform: uppercase;
+font-family : &quot;Roboto Thin&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Tathawade, Pune - 33.</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sep_1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>25</y>
+       <width>5</width>
+       <height>85</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FCFCFC;
+color: #FCFCFC;
+border: 2px solid #FCFCFC;
+border-radius: 1px;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sep_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>375</x>
+       <y>25</y>
+       <width>5</width>
+       <height>85</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FCFCFC;
+color: #FCFCFC;
+border: 2px solid #FCFCFC;
+border-radius: 1px;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="infoSun">
+     <property name="geometry">
+      <rect>
+       <x>35</x>
+       <y>32</y>
+       <width>45</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/images/SunL.svg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="info_Time">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>30</y>
+       <width>275</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>22</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#FCFCFC</string>
+     </property>
+     <property name="text">
+      <string>09:30:25 AM</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="info_Date">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>75</y>
+       <width>311</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Thin</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC;
+text-transform: uppercase;
+font-family : &quot;Roboto Thin&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Saturday, 1 October 18</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="loginBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>882</x>
+      <y>470</y>
+      <width>1039</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#loginBar
+{
+	background-color: #24292E;
+	border : 2px solid rgba(0,0,0,0);
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px; 
+}</string>
+    </property>
+    <widget class="QPushButton" name="voice">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>32</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/InVoiceL.svg);
+background-position: 15px 15px;
+background-color:rgba(0,0,0,0);
+background-repeat: repeat-none;
+border: 2px solid #FCFCFC;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="face">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>32</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/InFaceLS.svg);
+background-position: 10px 10px;
+background-color:rgba(0,0,0,0);
+background-repeat: repeat-none;
+border: 2px solid #FCFCFC;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="keyPass">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>32</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/InKeyPassL.svg);
+background-position: 15px 15px;
+background-color:rgba(0,0,0,0);
+background-repeat: repeat-none;
+border: 2px solid #FCFCFC;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numPass">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>32</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/InNumPassL.svg);
+background-position: 15px 15px;
+background-color:rgba(0,0,0,0);
+background-repeat: repeat-none;
+border: 2px solid #FCFCFC;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gesturePass">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>32</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/InGestureL.svg);
+background-position: 15px 15px;
+background-color:rgba(0,0,0,0);
+background-repeat: repeat-none;
+border: 2px solid #FCFCFC;
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sep_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>25</y>
+       <width>5</width>
+       <height>85</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FCFCFC;
+color: #FCFCFC;
+border: 2px solid #FCFCFC;
+border-radius: 1px;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sep_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>25</y>
+       <width>5</width>
+       <height>85</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FCFCFC;
+color: #FCFCFC;
+border: 2px solid #FCFCFC;
+border-radius: 1px;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="login_Info">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>40</y>
+       <width>365</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>18</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#FCFCFC;</string>
+     </property>
+     <property name="text">
+      <string>VOICE RECOGNITION</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="login_Info_Details">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>70</y>
+       <width>380</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Thin</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#FCFCFC;
+font-family:&quot;Roboto Thin&quot;;</string>
+     </property>
+     <property name="text">
+      <string>SAY 'HEY KRUTI' TO UNLOCK</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="mainLogo">
+    <property name="geometry">
+     <rect>
+      <x>727</x>
+      <y>415</y>
+      <width>145</width>
+      <height>195</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>WhatsThisCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/REAL_ICON.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="sep_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>55</y>
+      <width>5</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #24292E;
+color: #24292E;
+border: 2px solid #24292E;
+border-radius: 1px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="quote_Head">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>53</y>
+      <width>650</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#24292E;
+text-transform: uppercase;</string>
+    </property>
+    <property name="text">
+     <string>Imagination is Everything</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="quote_Author">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>311</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto Thin</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #24292E;
+font-family : &quot;Roboto Thin&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Albert Einstein</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="sep_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>1920</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #24292E;
+color: #24292E;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="copyright">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1020</y>
+      <width>1920</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caviar Dreams</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#24292E;
+color: #FCFCFC</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright © &lt;span style=&quot; font-weight:600;&quot;&gt;Vashishtha Enterprise&lt;/span&gt;, 2018.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource_list.qrc"/>
+ </resources>
+ <connections/>
+</ui>

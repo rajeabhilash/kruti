@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="Panel" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Panel
+{
+background-color: #24292E;
+border: 2px solid #24292E;
+border-radius:10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="Avatar">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>2</y>
+      <width>496</width>
+      <height>246</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Avatar
+{
+background-image: url(:/icons/ABHI_FIVE.jpg);
+background-repeat: none;
+background-position: center;
+border: 2px solid rgba(0,0,0,0);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="infoPanel" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>500</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#infoPanel{
+border: 0px solid rgba(0,0,0,0);
+border-top: 2px solid rgba(0,0,0,200);
+border-radius: 0px;
+background-color: rgba(0,0,0,135);
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}</string>
+    </property>
+    <widget class="QLabel" name="Name">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>5</y>
+       <width>391</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC;
+text-transform: uppercase;</string>
+     </property>
+     <property name="text">
+      <string>Raje Abhilash Mohite</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Mobile">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Thin</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC;
+font: 12pt &quot;Roboto Thin&quot;;</string>
+     </property>
+     <property name="text">
+      <string>8378881434</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Email">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>40</y>
+       <width>331</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto Thin</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FCFCFC;
+font: 12pt &quot;Roboto Thin&quot;;</string>
+     </property>
+     <property name="text">
+      <string>rajeabhilashmohite@gmail.com</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Sep_" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>2</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FCFCFC;
+border: 0px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="View">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>90</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Caviar Dreams</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#View
+{
+	background-color: rgba(0,0,0,0);
+	color: #FCFCFC;
+	border: 0px;
+	border-left: 4px solid #FCFCFC;
+	border-top: 1px solid #FCFCFC;
+	border-right: 1px solid #FCFCFC;
+	border-bottom: 1px solid #FCFCFC;
+}
+#View:hover{
+	border-left: 4px solid #ffff00;
+}</string>
+     </property>
+     <property name="text">
+      <string>View</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Edit">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>70</y>
+       <width>90</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Caviar Dreams</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#Edit
+{
+	background-color: rgba(0,0,0,0);
+	color: #FCFCFC;
+	border: 0px;
+	border-left: 4px solid #FCFCFC;
+	border-top: 1px solid #FCFCFC;
+	border-right: 1px solid #FCFCFC;
+	border-bottom: 1px solid #FCFCFC;
+}
+#Edit:hover{
+	border-left: 4px solid #00ffff;
+}</string>
+     </property>
+     <property name="text">
+      <string>Edit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Delete">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>90</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Caviar Dreams</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#Delete
+{
+	background-color: rgba(0,0,0,0);
+	color: #FCFCFC;
+	border: 0px;
+	border-left: 4px solid #FCFCFC;
+	border-top: 1px solid #FCFCFC;
+	border-right: 1px solid #FCFCFC;
+	border-bottom: 1px solid #FCFCFC;
+}
+#Delete:hover{
+	border-left: 4px solid #ff00ff;
+}</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../all_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
